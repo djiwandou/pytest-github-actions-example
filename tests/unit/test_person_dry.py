@@ -1,4 +1,6 @@
+import pytest
 from src.person import Person
+@pytest.fixture
 def person():
     person = Person("Emi")
     return person
